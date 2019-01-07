@@ -6,4 +6,7 @@
 3. 共轭梯度法是介于梯度下降和牛顿法之间的折中方法，既有牛顿法的收敛速度，又不需要用到函数的二阶导！推荐这种方法！
 
 ##### date:2019.1.6 #####
-更新1：新增阻尼牛顿法matlab和python程序；文件名：Damped_Newton.m / python_Damped_Newton.py 
+更新1：新增“阻尼牛顿法”的matlab和python程序；文件名：Damped_Newton.m / python_Damped_Newton.py 
+
+##### date:2019.1.7 #####
+更新2：新增“蒙特卡洛全局最优”的matlab和python程序；文件名：Monte_Carlo.m / python_Monte_Carlo.py
