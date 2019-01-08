@@ -12,10 +12,7 @@
 更新2：新增“蒙特卡洛全局最优”的matlab和python程序；文件名：Monte_Carlo.m / python_Monte_Carlo.py
 
 ##### date:2019.1.8 #####
-更新3：新增“蒙特卡洛全局最优”算法针对Schaffer函数和Rastrigin函数的matlab程序; 
-更新4：新增“模拟退火法全局最优”算法的matlab程序，以及其针对Schaffer函数和Rastrigin函数的matlab程序;
-更新5：新增“粒子群全局最优”算法的matlab程序，以及其针对Schaffer函数和Rastrigin函数的matlab程序;
-更新6：蒙特卡洛、模拟退火、粒子群全局最优 + 梯度下降精确搜索 的matlab程序(全局搜索 + 精确搜索)。
+更新3：新增“蒙特卡洛全局最优”算法针对Schaffer函数和Rastrigin函数的matlab程序;  更新4：新增“模拟退火法全局最优”算法的matlab程序，以及其针对Schaffer函数和Rastrigin函数的matlab程序;  更新5：新增“粒子群全局最优”算法的matlab程序，以及其针对Schaffer函数和Rastrigin函数的matlab程序;  更新6：蒙特卡洛、模拟退火、粒子群全局最优 + 梯度下降精确搜索 的matlab程序(全局搜索 + 精确搜索)。
 
 说明1：在复杂函数处理中(很多极小值陷阱)，例如Schaffer函数，蒙特卡洛和粒子群有很好的效果，但模拟退火很容易受骗走不出陷阱！
 说明2：粒子群比蒙特卡洛有更快的运算速度，并且有很好的并行化特征！便于其改成成并行化程序。
