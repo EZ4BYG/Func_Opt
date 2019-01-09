@@ -14,7 +14,7 @@
 ##### date:2019.1.8 #####
 更新3：新增“蒙特卡洛全局最优”算法针对Schaffer函数和Rastrigin函数的matlab程序;  文件名：Monte_Carlo       
 更新4：新增“模拟退火法全局最优”算法的matlab程序，以及其针对Schaffer函数和Rastrigin函数的matlab程序;  文件名：Simulated_Annealing
-更新5：新增“粒子群全局最优”算法的matlab程序，以及其针对Schaffer函数和Rastrigin函数的matlab程序;   文件名：PSO
+更新5：新增“粒子群全局最优”算法的matlab程序，以及其针对Schaffer函数和Rastrigin函数的matlab程序;   文件名：PSO        
 更新6：蒙特卡洛、模拟退火、粒子群全局最优 + 梯度下降精确搜索 的matlab程序(全局搜索 + 精确搜索)。
 
 蒙特卡洛核心思想：大量随机抽样下的比对，最后结果就是在当前抽样数量下筛选出的一定是最想要的那个结果。举例：假如篮子里有1000个苹果(你定的测试集)，让你
