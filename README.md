@@ -1,4 +1,28 @@
-# Optimization_Algorithm
+# Func_Opt
+
+Common local optimization and global optimization algorithms.
+
+Gradient descent, Newton method, Conjugate gradient method(Python + Matlab): finding the extremum point of a space surface(3D).
+- The speed of gradient descent algorithm is slow, the number of iterations is large, and the final result is approximate;
+- Newton method uses the second-order Taylor expansion approximation of the function, converging very fast!
+- Conjugate gradient method is a **compromise** between gradient descent and Newton method! Having the convergence rage of Newton method and doesn't need the second derivative! 
+—— **Recommend**!! 
+
+# Time: 2019.01.06
+- Damping Newton method(Python + Matlab): Damped_Newton.m / python_Damped_Newton.py
+
+# Time: 2019.01.07
+- Monte-Carlo global optimal algorithm(Python + Matlab): Monte_Carlo.m / python_Monte_Carlo.py
+
+# Time: 2019.01.08
+- Monte-Carlo for *Schaffer* and *Rastrigin* functions(Matlab): Monte_Carlo 
+- Simulated-annealing global optimal algorithm(Matlab) + Simulated-annealing for *Schaffer* and *Rastrigin* functions(Matlab): Simulated_Annealing
+- Particle-swarm optimization global algorithm(Matlab) + Particle-swarm for *Schaffer* and *Rastrigin* functions(Matlab): PSO
+- Combining MC/SA/PSO with Gradient descent to conduct fine research(Global optimal + Local optimal)
+  
+---
+
+# 最优化算法
 梯度下降、牛顿法、共轭梯度法等matlab和python程序：求一个空间曲面(3维)的极值点。
 
 - 梯度下降算法速度较慢、迭代次数较大，并且最后的结果是近似值；
