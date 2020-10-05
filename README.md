@@ -23,7 +23,12 @@ Note:
 - **Particle-swarm** optimization global algorithm(Matlab) + Particle-swarm for *Schaffer* and *Rastrigin* functions(Matlab): PSO
 - Combining MC/SA/PSO with Gradient descent to conduct fine research(Global optimal + Local optimal)
   
-**Monte-Carlo**:   
+**Monte-Carlo**: Choose the best one based on a large number of samples. For example, There are 1000 apples in a basket, and you take one out at random every time. Then, you take another one out, comparing it with the previous one and keep the bigger one. Follow this loop. The more times you sample, the more likely you are able to pick the largest apple! But unless you take out all 1,000 apples, you never know for sure if the one you're keeping is the biggest one. You know, even if you've got 999 of them, the last one still has the possibility to be the biggest apple! **Advantage**: As long as there is a sufficient number of sampling times, we can certainly get a good result, which means that the algorithm must converge. **Disadvantage**: need a lot of sampling!
+
+**Simulated-annealing**: This algorithem gradually knows what its goal is! And it keeps moving toward a clearer goal, less and less distracted by temptation. For example,  in order to find out the highest mountain on earth, a rabbit doesn't have the right strategy at the beginning. So it jumps at random for a long time. During the trying time, it may go up to high places, step into flat ground or gully. But as the time passes by, this rabbit wakes up and jumps directly to the highest destination, and finally reaches Mount Everest. **Advantage**: The global optimal solution can be found under the finite number of iterations. **Disadvantage**: For some very complex functions, such as having many local extremum points, if the initial value is not found well, it is very likely that the global optimal solution cannot be found eventually.
+
+**Particle-swarm**: Information is shared! Search as a team! Team members share information and make progress together to avoid individuals have shortsightedness and lack of global consciousness. For example, just like in Go Game, focusing only on one corner of the battle does not necessarily lead to the final victory. You should look at the whole board and think of all the pieces as a team. **Advantage**: Better than SA, and can be computed in parallel. —— **Recommend**!! 
+
 ---
 
 # 最优化算法
