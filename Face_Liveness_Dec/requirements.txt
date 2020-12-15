@@ -1,0 +1,27 @@
+--- 第三方 ---
+numpy：1.16.2
+matplotlib：3.1.3
+Tensorflow-GPU：2.2.0
+
+--- 自带包 ---
+os
+glob
+random
+
+--------------------------------------------------
+
+程序有两套版本：
+1： .py是python可执行程序，直接用pycharm即可运行；
+2：.ipynb是jupyter notebook的python程序，在jupyter notebook也可运行（推荐）。
+
+----
+
+一共有3个程序：
+train.py / train.ipynb：数据预处理和模型训练的程序。
+test.py / test.ipynb：用训练好的模型（会自动导入model.h5模型）测试test和B_test数据集的精度。
+prediction.py / prediction.ipynb：对没有标签的数据集进行最后的“标签预测”。
+
+使用注意：
+1：数据集和程序（.py / .ipynb）、模型文件（model.h5）要放在同一个文件夹下。
+2：程序中有GPU配置的语句，注意修改GPU机器名字。
+3：文件路径读取写到程序里了。
